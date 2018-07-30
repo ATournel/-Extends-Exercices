@@ -21,19 +21,24 @@ public class Librairie {
 			livre2.setType("Policier");
 			livre2.setAuteur("Agatha Christie");
 			livre2.setEditeur("Collins");
-			livre2.setPrix(12.90);
+			livre2.setPrix(8.90);
 			livre2.setDisponible(false);
 		
 		Bd bd1 = new Bd();
 			bd1.setTitre("L'incal, Integrale");
-			bd1.setAuteur("Alexandro Jodorowsky ");
+			bd1.setAuteur("Alexandro Jodorowsky");
 			bd1.setDessinateur("Moebius");
 			bd1.setEditeur("Les Humanoïdes associés");
 			bd1.setPrix(36.81);
 			bd1.setDisponible(true);
 		
 		Bd bd2 = new Bd();
-		
+			bd2.setTitre("Machine qui rêve");
+			bd2.setAuteur("Tome");
+			bd2.setDessinateur("Janry");
+			bd2.setEditeur("Dupuis");
+			bd2.setPrix(12.90);
+			bd2.setDisponible(true);
 
 	}
 
