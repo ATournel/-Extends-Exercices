@@ -1,10 +1,34 @@
 
 public class Librairie {
 
-	String nom= "Mibrairie l'Heritage";
-	String adresse= "28 rue de la page";
-	String horaires= "Du Lundi au Vendredi de 9h30 à 17h30";
+	static String nom= "Librairie l'Heritage";
+	static String adresse= "28 rue de la page";
+	static String horaires= "Du Lundi au Vendredi de 9h30 à 17h30";
 	
+	public static String getNom() {
+		return nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public static String getAdresse() {
+		return adresse;
+	}
+
+	public void setAdresse(String adresse) {
+		this.adresse = adresse;
+	}
+
+	public static String getHoraires() {
+		return horaires;
+	}
+
+	public void setHoraires(String horaires) {
+		this.horaires = horaires;
+	}
+
 	public static void main(String[] args) {
 		
 		Livre livre1 = new Livre();
@@ -47,6 +71,14 @@ public class Librairie {
 		Client client2 = new Client();
 			client1.setNom("Duval");
 			client1.setPrenom("Henri");
-	}
+			
+		System.out.println("Bienvenue chez la "+Librairie.getNom()+".");
+		System.out.println("Située "+Librairie.getAdresse()+".");
+		System.out.println("Horaires: "+Librairie.getHoraires()+".");
+		
+		
+}
+	
+	
 
 }
