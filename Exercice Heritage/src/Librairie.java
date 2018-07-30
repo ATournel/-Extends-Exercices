@@ -25,6 +25,12 @@ public class Librairie {
 			livre2.setDisponible(false);
 		
 		Bd bd1 = new Bd();
+			bd1.setTitre("L'incal, Integrale");
+			bd1.setAuteur("Alexandro Jodorowsky ");
+			bd1.setDessinateur("Moebius");
+			bd1.setEditeur("Les Humanoïdes associés");
+			bd1.setPrix(36.81);
+			bd1.setDisponible(true);
 		
 		Bd bd2 = new Bd();
 		
