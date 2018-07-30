@@ -17,6 +17,12 @@ public class Librairie {
 			
 		
 		Livre livre2 = new Livre();
+			livre2.setTitre("Le Meurtre de Roger Ackroyd");
+			livre2.setType("Policier");
+			livre2.setAuteur("Agatha Christie");
+			livre2.setEditeur("Collins");
+			livre2.setPrix(12.90);
+			livre2.setDisponible(false);
 		
 		Bd bd1 = new Bd();
 		
