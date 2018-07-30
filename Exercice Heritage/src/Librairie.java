@@ -39,7 +39,14 @@ public class Librairie {
 			bd2.setEditeur("Dupuis");
 			bd2.setPrix(12.90);
 			bd2.setDisponible(true);
-
+		
+		Client client1 = new Client();
+			client1.setNom("Dupont");
+			client1.setPrenom("Robert");
+		
+		Client client2 = new Client();
+			client1.setNom("Duval");
+			client1.setPrenom("Henri");
 	}
 
 }
